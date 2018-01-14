@@ -1,0 +1,330 @@
+/*BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY */
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/*BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY */
+/*NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR */
+#welcome-cover {
+	background-image:url(../images/cover-photo.jpg);
+	background-size:cover;
+	background-position: center;
+	height: 100%;
+	width:100%;
+	position: relative;
+	background-attachment: fixed;
+}
+nav{
+	font-weight: 700;
+	font-size: 15px;
+}
+.my-navbar{
+	background-color: transparent;
+	padding: 30px 0;
+	transition: 700ms ease;
+}
+.scroll .my-navbar{
+	background-color: #1a1a1a;
+	padding: 10px;
+	transition: 700ms ease;
+}
+.navbar-toggle{
+	border-style: none;
+}
+.navbar-inverse .navbar-collapse{
+    border-color: #1bbca8;
+
+}
+#nav-text-color{
+	color: white;
+	font-size: 50px;
+}
+#text-color{
+	color: white;
+}
+/*NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR*/
+/*COVER PAGE COVER PAGE COVER PAGE COVER PAGE COVER PAGE COVER PAGE*/
+.welcome-text{
+	padding: 300px 0px 200px 0px;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+}
+#welcome-text-firstline{
+	font-size:30px; 
+}
+#welcome-text-myname{
+	font-weight:700; 
+	font-size: 50px;
+	margin-bottom: 20px;
+	margin-top:0;
+	text-transform:uppercase;
+}
+#welcome-text-designation{
+	font-size:10px;
+	text-transform:uppercase;
+	margin-bottom: 30px;
+	color: #1bbca8;
+}
+.name{
+	background-color:#1bbca8; 
+	color: #232323;
+}
+.btn-download{
+	border: 1px solid #1bbca8;
+	padding:14px 20px;
+	border-radius: 0;
+	color: white;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.btn-download:hover {
+	background-color:#1bbca8;
+	color:white;
+	transition:700ms ease;
+	letter-spacing:0.5pt;
+}
+.btn-download:focus{
+	color:white;
+}
+/*COVER PAGE COVER PAGE COVER PAGE COVER PAGE COVER PAGE COVER PAGE*/
+/*ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT*/
+#about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+.about-image{
+	margin-top: 50px;
+	margin-bottom:100px :  
+}
+/*ABOUT&SERVICE ABOUT&SERVICE H1 */
+#about h1, #services h1{
+	font-weight: 700;
+}
+/*ABOUT&SERVICE ABOUT&SERVICE H1 */
+/*TABS TABS TABS TABS TABS TABS TABS */
+.nav-tabs {
+    border-bottom: 1px solid #1bbca8;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 1px solid #1bbca8;
+    border-bottom-color: transparent;
+}
+.nav-tabs>li>a {
+    border-radius: 0;
+}
+#details-skills{
+	margin-top: 50px; 
+}
+/*TABS TABS TABS TABS TABS TABS TABS */
+/*ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT*/
+/*SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES*/
+#services{
+	background-image:url(../images/services-photo.jpg);
+	background-size:cover;
+	background-position: center;
+	height: 100%;
+	width:100%;
+	position: relative;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#services h1{
+	color: black;
+}
+#services .thumbnail{
+	height: 300px;
+}
+.thumbnail{
+	margin-top: 50px;
+	margin-bottom: 50px;
+    transform: scale(1, 1);
+    transition: 0.3s ease;
+    background-color: #f6f6f6;
+    border: 1px solid #b5b5b5;
+    border-radius: 0;
+}
+.thumbnail:hover{
+	cursor: pointer;
+    transform: scale(1.01, 1.01);
+    transition: 0.3s ease;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    background-color: white;
+    color:#1bbca8;
+}
+#icons{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 20px; 
+}
+/*SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES*/
+/*FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE*/
+#freelance{
+	background-image: url(../images/freelance-photo.jpg);
+	background-size:cover;
+	background-position: center;
+	height: 100%;
+	width:100%;
+	position: relative;
+	background-attachment: fixed;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	font-weight: bold;
+}
+#freelance h1{
+	padding-bottom: 30px;
+}
+/*FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE*/
+/*PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO*/
+#portfolio{
+
+	background-size:cover;
+	background-position: center;
+	height: 100%;
+	width:100%;
+	padding-top: 30px;
+	font-weight: bold;
+	position: relative;
+	color: white;
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+#portfolio .thumbnail{
+	background-color: transparent;
+	border: none;
+}
+/*PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO*/
+/*TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS*/
+#testimonials{
+	background-color: #1a1a1a;
+	color: white;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+/*CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL*/
+#mycarousel .item{
+	background-size:cover;
+	background-position: center;
+	height: 400px;
+}
+#mycarousel{
+	margin-top:30px; 
+}
+.carousel-caption{
+	font-size: 24px;
+	margin-bottom: 50px;
+	font-weight: normal;
+}
+.carousel-caption h1{
+
+	font-weight: 700;
+}
+#slide1{
+	background: url(../images/carousel1-photo.jpg);
+}
+#slide2{
+	background: url(../images/carousel2-photo.jpg);
+}
+#slide3{
+	background: url(../images/carousel3-photo.jpg);
+}
+/*CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL*/
+/*TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS*/
+ /*PERSONAL-INFO PERSONAL-INFO PERSONAL-INFO PERSONAL-INFO PERSONAL-INFO PERSONAL-INFO */
+#personalinfo{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+#personalinfo h5{
+	font-weight: 700;
+	font-size: 14px;
+}
+#info-icons{
+	font-size: 36px;
+	margin-bottom: 20px;
+	transform: scale(1, 1);
+	color: #1bbca8;
+}
+#info-icons:hover{
+	transition: 500ms ease;
+	cursor: pointer;
+    transform: scale(1.4, 1.4);
+}
+#contact{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	font-weight: 700;
+	font-size: 34px; 
+}
+/*PERSONAL-INFO PERSONAL-INFO PERSONAL-INFO PERSONAL-INFO PERSONAL-INFO PERSONAL-INFO */
+/*COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT */
+#copyright{
+	text-align: center;
+	font-weight: 700;
+	font-size: 34px;
+	background-color: #1a1a1a;
+	color: white;
+	padding-top: 20px;
+	padding-bottom:20px;
+
+}
+/*COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
