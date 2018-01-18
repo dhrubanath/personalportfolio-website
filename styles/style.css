@@ -88,35 +88,32 @@ nav{
 }
 /*COVER PAGE COVER PAGE COVER PAGE COVER PAGE COVER PAGE COVER PAGE*/
 /*ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT*/
-#about{
-	padding-top: 50px;
-	padding-bottom: 50px;
-
-}
-.about-image{
-	margin-top: 50px;
-	margin-bottom:100px :  
-}
 /*ABOUT&SERVICE ABOUT&SERVICE H1 */
 #about h1, #services h1{
 	font-weight: 700;
 }
 /*ABOUT&SERVICE ABOUT&SERVICE H1 */
-/*TABS TABS TABS TABS TABS TABS TABS */
-.nav-tabs {
-    border-bottom: 1px solid #1bbca8;
+#about{
+	box-shadow: 0 0 20px rgb(27,188,168);
+	margin:  50px;
+
+
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    border: 1px solid #1bbca8;
-    border-bottom-color: transparent;
+.about-image{
+	margin-right: 50px;
+	margin-top:50px;  
+}  
+.about-me{
+	background-color: #004256;
+	color: white;
+	padding: 6.5px;
+	margin: 50px 0px;
 }
-.nav-tabs>li>a {
-    border-radius: 0;
+.about-me hr{
+	 margin: 0;
+	 padding:0;
 }
-#details-skills{
-	margin-top: 50px; 
-}
-/*TABS TABS TABS TABS TABS TABS TABS */
+
 /*ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT*/
 /*SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES*/
 #services{
@@ -149,7 +146,7 @@ nav{
 	cursor: pointer;
     transform: scale(1.01, 1.01);
     transition: 0.3s ease;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    box-shadow: 15px rgba(0,0,0,0.1);
     background-color: white;
     color:#1bbca8;
 }
@@ -175,57 +172,36 @@ nav{
 	font-weight: 700;
 	font-weight: bold;
 }
+.img-thumbnail{
+	border-radius: 0;
+	border: 0.1px solid;
+}
 #freelance h1{
 	padding-bottom: 30px;
 }
 /*FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE FREELANCE*/
 /*PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO*/
 #portfolio{
-
+	background-image: url(../images/portfolio-photo.jpg);
 	background-size:cover;
 	background-position: center;
+	background-attachment: fixed;
 	height: 100%;
 	width:100%;
-	padding-top: 30px;
-	font-weight: bold;
-	position: relative;
 	color: white;
-	width: 100wh;
-	height: 90vh;
-	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
 }
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+.img-thumbnail:hover{
+	cursor: pointer;
+	transform: scale(1.1, 1.1);
+	opacity: 0.5;
+    transition: 0.3s ease;
+    box-shadow: 15px rgba(0,0,0,0.1);
+    color: white;
+  
 }
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-#portfolio .thumbnail{
-	background-color: transparent;
-	border: none;
+.img-thumbnail{
+	margin:20px;
+	position: relative;
 }
 /*PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO*/
 /*TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS*/
@@ -249,10 +225,11 @@ nav{
 }
 .carousel-caption{
 	font-size: 24px;
+	text-align: cover;
 	font-weight: normal;
+	margin-top:50;
 }
 .carousel-caption h1{
-
 	font-weight: 700;
 }
 #slide1{
@@ -307,23 +284,3 @@ nav{
 }
 /*COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT */
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
